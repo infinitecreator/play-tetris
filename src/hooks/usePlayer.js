@@ -20,7 +20,7 @@ const buildPlayer = (previous) => {
     position: { row: 0, column: 4 },
     tetrominoes,
     tetromino: tetrominoes.pop()
-  };
+  };  
 };
 
 export const usePlayer = () => {
